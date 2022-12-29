@@ -4,6 +4,8 @@ import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import CartWidget from './components/CartWidget';
 
+import loguito from './components/img/logo.png'
+
 function App() {
 
   // const greeting = 'Pagina en Construccion';
@@ -11,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />      
-      <ItemListContainer greeting="Hola Chicos, Esto Es el ItemListContainer"/>
-
+      <img src={loguito} className="App-logo loguito" alt="logo" />
+      <ItemListContainer greeting="Hola, Esto Es el ItemListContainer"/>
 
 
       {/* <header className="App-header">
