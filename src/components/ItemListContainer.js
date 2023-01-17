@@ -1,11 +1,11 @@
-
+import './ItemListContainer.css';
+import loguito from './img/logo.png'
 
 const ItemListContainer = ({greeting}) => {
-    // const greeting = 'Pagina en Construccion';
-
     return (
-        <div>
-            <h1 style={{color: "red"}}>{greeting}</h1>
+        <div className='ItemListContainer'>
+            <img src={loguito} className="App-logo loguito" alt="logo" />
+            <h1 style={{color: "black"}}>{greeting}</h1>
         </div>
     );
 };
