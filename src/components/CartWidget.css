@@ -11,7 +11,7 @@
 .carrito-items {
     width: 30px;
     height: 30px;
-
+    text-align: center;
     /* display: inline-block; */
     vertical-align: top;    
     background-color: red;

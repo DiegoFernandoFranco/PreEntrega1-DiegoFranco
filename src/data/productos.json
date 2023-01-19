@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatilla 1",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Zapatillas",
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatilla 2",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Zapatillas",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Ojota 1",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Ojotas",
+        "stock": 5
+    },
+    {
+        "id": 4,
+        "nombre": "Ojota 2",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Ojotas",
+        "stock": 5
+    },
+    {
+        "id": 5,
+        "nombre": "Zapato 1",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Zapatos",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Zapato 2",
+        "description": "Model One",
+        "precio": 1000,
+        "image": "/img/html.png",
+        "category": "Zapatos",
+        "stock": 5
+    }
+]

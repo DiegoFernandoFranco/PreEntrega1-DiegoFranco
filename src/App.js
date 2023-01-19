@@ -1,17 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import ItemListContainer from './pages/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
+import Error from './pages/Error/Error';
+
+import NavBar from './components/NavBar/NavBar';
 
 
 function App() {
 
   return (
-    <div className="App">
-      <NavBar />            
-      <ItemListContainer greeting="Hola, Esto Es el ItemListContainer"/>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        {/* <Route path='*' element={<h1>Esto es un ErRoR!!!</h1>} /> */}
+        <Route path='*' element={<Error />} />
+        <Route path='/' element={<ItemListContainer />} />
+        <Route path='item' element={<ItemDetailContainer />} />
+      </Routes>
+    </BrowserRouter>  
+
+
+    // <div className="App">
+
+      // <NavBar />            
+    //   <ItemListContainer greeting="Hola, Esto Es el ItemListContainer"/>
     
-    </div>
+    // </div>
   );
 }
 

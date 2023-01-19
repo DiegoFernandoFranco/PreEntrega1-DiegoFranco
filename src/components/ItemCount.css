@@ -1,0 +1,24 @@
+.contador {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+.controles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.controles button {
+    font-size: 20px;
+    width: 50px;
+    height: 20px;
+    line-height: 0;
+}
