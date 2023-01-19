@@ -24,3 +24,9 @@
   /* padding: 20px 30px; */
   /* width: 300px; */
 }
+
+.flexbox {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}

@@ -22,7 +22,7 @@ const ItemListContainer = ({greeting}) => {
                     "price": 1000,
                     "category": "Zapatillas",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
                 },
                 {
                     "id": 2,
@@ -31,7 +31,7 @@ const ItemListContainer = ({greeting}) => {
                     "price": 1000,
                     "category": "Zapatillas",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
                 },
                 {
                     "id": 3,
@@ -40,7 +40,7 @@ const ItemListContainer = ({greeting}) => {
                     "price": 1000,
                     "category": "Ojotas",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
                 },
                 {
                     "id": 4,
@@ -49,7 +49,7 @@ const ItemListContainer = ({greeting}) => {
                     "price": 1000,
                     "category": "Ojotas",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px "/>,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px "/>,
                 },
                 {
                     "id": 5,
@@ -58,7 +58,7 @@ const ItemListContainer = ({greeting}) => {
                     "precio": 1000,
                     "category": "Zapatos",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
                 },
                 {
                     "id": 6,
@@ -67,7 +67,7 @@ const ItemListContainer = ({greeting}) => {
                     "price": 1000,
                     "category": "Zapatos",
                     "stock": 5,
-                    "image": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
+                    "pictureUrl": <img alt="Zapatillas" src="./images/ojotas-celestes.png" width="100px" />,
                 }
             ]);
         }, 2000)
@@ -92,7 +92,7 @@ const ItemListContainer = ({greeting}) => {
 // }, [])
 
     return (
-        <div className='ItemListContainer'>
+        <div className='IIemListContainer flexbox'>
             {/* <ItemCount /> */}
             {/* <img src={loguito} className="App-logo loguito" alt="logo" /> */}
             {/* <h1 style={{color: "black"}}>{greeting}</h1> */}

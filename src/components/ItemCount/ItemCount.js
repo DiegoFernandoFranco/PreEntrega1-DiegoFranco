@@ -2,9 +2,9 @@ import './ItemCount.css';
 import { useState } from 'react';
 
 const ItemCount = () => {
-    const [contador, setContador] = useState(0);
+    const [contador, setContador] = useState(1);
     const stock = 5;
-    const agregar = () => {
+    const onAdd = () => {
         if (stock === contador) {
             console.log('No hay mas stock')
             return;
@@ -23,7 +23,7 @@ const ItemCount = () => {
             <div className='controles'>
                 <button onClick={() => quitar ()}>-</button>
                 <h3>{contador}</h3>
-                <button onClick={agregar}>+</button>
+                <button onClick={onAdd}>+</button>
             </div>
             <>
             <button>Agregar al Carrito</button>
