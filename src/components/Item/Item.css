@@ -13,7 +13,7 @@ body {
   .flexbox .flex-card-listitem {
     display:flex;
     background-color: #fff;
-    /* padding: 1em; */
+    padding: 1em;
     border-radius: 10px;
   }
   
@@ -23,18 +23,22 @@ body {
     flex-direction:column;
   }
   .flex-card-list li {
-    width:400px;
+    /* width:400px; */
     margin: .55em;
-  }
-  .flexbox .flex-card-content {
+}
+.flexbox .flex-card-content {
     display:flex;
-    flex:1 0 auto; 
+    /* flex:1 0 auto;  */
+    text-align: center;
+    
     flex-direction:column;
-  }
-  .flexbox .flex-card-content p {
+}
+.flexbox .flex-card-content p {
+    list-style-type: none;
+    text-decoration: none;
     flex:1 0 auto;
     font-weight: 900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   }
   .flex-card-button {
    background-color: #FF6A88;
